@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mega Joy World Game</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            @font-face {
+                font-family: "Upcfb";
+                src: url("fonts/upcfb.ttf");
+            }
+
+            body {
+                background: #000;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="game-container" style="width: 800px;"></div>
+        <script>
+            const langcode = 'en';
+            const resolution = 'middle';
+        </script>
+        <script src="app/phaser.min.js"></script>
+        <script src="js/game.js"></script>
+        <script src="app/reel_animation.js"></script>
+    </body>
+</html>
